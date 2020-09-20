@@ -19,7 +19,7 @@ Las Colecciones MongoDB están referenciadas entre si de la siguiente manera:
 
 Las cuales están compuestas por las siguientes propiedades:
 
-```
+
 Almacen: {
     id: Long,
     descripcion: String,
@@ -65,4 +65,4 @@ Tienda: {
 	cadenaTienda: CadenaTienda,
 	almacenes: List<Almacen>
 }
-```
+
