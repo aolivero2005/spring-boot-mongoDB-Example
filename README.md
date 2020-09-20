@@ -8,7 +8,6 @@ http://127.0.0.1:8080/swagger-ui.html
     <img style="width:500px" src="./src/main/resources/static/img/swagger.PNG" alt="Interfaz Swagger2"> 
 </div>
 
-```
 
 ## Modelo conceptual del negocio
 
