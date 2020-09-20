@@ -5,7 +5,7 @@
 Este ejemplo no es real, solo es demostrativo. Fue tomado como caso de estudio
 cuando inicie mis andares por spring boot con mongodb, además le fue integrado swagger2.
 
-Que es básico! Si lo es. Pues es el objetivo para aquellos están iniciando les sirva como base.
+Que es básico! Si lo es. Pues es el objetivo para aquellos que están iniciando les sirva como base.
 
 ## API expuesta por Swaggwe2
 
