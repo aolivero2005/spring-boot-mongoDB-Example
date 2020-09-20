@@ -1,5 +1,12 @@
 # Ejemplo de API REST con Spring Boot + MongoDB + Swagger2
 
+## Descripción
+
+Este ejemplo no es real, solo es demostrativo. Fue tomado como caso de estudio
+cuando inicie mis andares por spring boot con mongodb, además le fue integrado swagger2.
+
+Que es básico! Si lo es. Pues es el objetivo para aquellos están iniciando les sirva como base.
+
 ## API expuesta por Swaggwe2
 
 http://127.0.0.1:8080/swagger-ui.html
@@ -17,9 +24,9 @@ Las Colecciones MongoDB están referenciadas entre si de la siguiente manera:
     <img style="width:500px" src="./src/main/resources/static/img/modelo.png" alt="modelo"> 
 </div>
 
-Las cuales están compuestas por las siguientes propiedades:
+## Entidades:
 
-
+```
 Almacen: {
     id: Long,
     descripcion: String,
@@ -48,7 +55,6 @@ Employee: {
     municipio: String,
     estado: String,
     pais: String,
-    ZIP: Integer
 }
 
 Estados: {
@@ -65,4 +71,4 @@ Tienda: {
 	cadenaTienda: CadenaTienda,
 	almacenes: List<Almacen>
 }
-
+```
